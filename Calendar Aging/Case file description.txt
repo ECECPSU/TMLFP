@@ -1,1 +1,13 @@
+These case files are for the simulation of calendar aging of LFP batteries presented in Fig. 5d.
 
+Case-file Name: Blade_LFP_Aging_T60_SOC050.xml
+Descripton: Calendar aging at 60oC, 50% SOC with baseline graphite particle radius
+
+Case-file Name: Blade_LFP_Aging_T60_SOC100.xml
+Descripton: Calendar aging at 60oC, 100% SOC with baseline graphite particle radius
+
+Case-file Name: Blade_LFP_Aging_T60_SOC100_Graphite_R_15x.xml
+Descripton: Calendar aging at 60oC, 100% SOC with 1.5x graphite particle radius
+
+Case-file Name: Blade_LFP_Aging_T60_SOC100_Graphite_R_2x.xml
+Descripton: Calendar aging at 60oC, 100% SOC with 2.0x graphite particle radius
