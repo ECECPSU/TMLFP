@@ -1,1 +1,30 @@
+These case files are for drive-cycle simulation of the TM-LFP blade batteries under the UDDS protocol at different temperatures, presented in Fig. 5a and Supplementary Figs. 12 and 14a. The UDDS protocol is implemented in the model as user defined load profiles (UDLP). 
 
+The TM-LFP battery has a heating process to warm up from ambient temperature to 60oC for operation. We assume that it consumes 1.35%SOC per 10oC temperature rise for the heating, which is implemented in the case files by adjusting the initial SOC.
+
+Case-file Name: TM-LFP_UDDS_40kWh_Tcell60_Tamb40_SOC972.xml
+Descripton: Cell temperature: 60oC, ambient temperature: 40oC, initial SOC:97.2%
+
+Case-file Name: TM-LFP_UDDS_40kWh_Tcell60_Tamb25_SOC951.xml
+Descripton: Cell temperature: 60oC, ambient temperature: 25oC, initial SOC:95.1%
+
+Case-file Name: TM-LFP_UDDS_40kWh_Tcell60_Tamb10_SOC93.xml
+Descripton: Cell temperature: 60oC, ambient temperature: 10oC, initial SOC:93%
+
+Case-file Name: TM-LFP_UDDS_40kWh_Tcell60_Tamb00_SOC916.xml
+Descripton: Cell temperature: 60oC, ambient temperature: 0oC, initial SOC:91.6%
+
+Case-file Name: TM-LFP_UDDS_40kWh_Tcell60_TambM10_SOC902.xml
+Descripton: Cell temperature: 60oC, ambient temperature: -10oC, initial SOC:90.2%
+
+Case-file Name: TM-LFP_UDDS_40kWh_Tcell60_TambM20_SOC888.xml
+Descripton: Cell temperature: 60oC, ambient temperature: -20oC, initial SOC:88.8%
+
+Case-file Name: TM-LFP_UDDS_40kWh_Tcell60_Tamb25_SOC951_Graphite_R_15x.xml
+Descripton: Cell temperature: 60oC, ambient temperature: 25oC, initial SOC:95.1%, 1.5x Graphite particle radius 
+
+Case-file Name: TM-LFP_UDDS_40kWh_Tcell60_Tamb25_SOC951_Graphite_R_2x.xml
+Descripton: Cell temperature: 60oC, ambient temperature: 25oC, initial SOC:95.1%, 2x Graphite particle radius 
+
+File name: LFP_UDDS_40kWh_wRegen
+Descripton: Load profile of battery power for the UDDS protocol with consideration of regenerative braking

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AutoLion version="1D_7.0.14" id="59d3c54917472fbf727ffac5209fc3ad" date="2020-11-21 21:12">
+  <Designer>
+    <Package type="1">
+      <Prismatic type="2">
+        <Battery_SED type="2">
+          <property name="Cell_Width" value="905" unit="mm" description=""/>
+          <property name="Cell_Height" value="118" unit="mm" description=""/>
+          <property name="Cell_Thickness" value="13.5" unit="mm" description=""/>
+          <property name="Inner_Width" value="903" unit="mm" description=""/>
+          <property name="Inner_Height" value="116" unit="mm" description=""/>
+          <property name="Inner_Thickness" value="12.6" unit="mm" description=""/>
+          <property name="Enclosure_Weight" value="426" unit="g" description=""/>
+        </Battery_SED>
+      </Prismatic>
+    </Package>
+    <Electrode_Assembly type="1">
+      <Positive_Electrode type="1">
+        <Tab type="3"/>
+        <Foil type="2">
+          <property name="Material" value="Al" unit="" description=""/>
+          <property name="Thickness" value="13" unit="um" description=""/>
+          <property name="Width" value="883" unit="mm" description=""/>
+          <property name="Density" value="2.7" unit="g/cm3" description=""/>
+          <property name="Conductivity" value="3.538E+7" unit="S/m" description=""/>
+        </Foil>
+        <Formula type="3">
+          <Active_Material type="0">
+            <property name="Material" value="LFPO" unit="" description=""/>
+            <property name="Molecular_Weight" value="157.751" unit="g/mol" description=""/>
+            <property name="Electrons_Transferred" value="1" unit="mol" description=""/>
+            <property name="Density" value="3.6" unit="g/cm3" description=""/>
+            <property name="1st_Charge_Capacity" value="160" unit="mAh/g" description=""/>
+            <property name="1st_Discharge_Capacity" value="150" unit="mAh/g" description=""/>
+            <property name="Umax" value="3.8" unit="V" description="Cutoff voltage for reversible specific capacity"/>
+            <property name="Particle_Size" value="0.32" unit="um" description="Particle diameter"/>
+            <property name="Swelling_Coefficient" value="1.0" unit="" description="Volume expansion coefficent"/>
+            <property name="Weight_Percentage" value="97" unit="%" description=""/>
+          </Active_Material>
+          <Conductive_Agent type="3">
+            <property name="Material" value="Carbon" unit="" description=""/>
+            <property name="Density" value="1.95" unit="g/cm3" description=""/>
+            <property name="Weight_Percentage" value="2" unit="%" description=""/>
+          </Conductive_Agent>
+          <Binder type="3">
+            <property name="Material" value="PVdF" unit="" description=""/>
+            <property name="Density" value="1.77" unit="g/cm3" description=""/>
+            <property name="Weight_Percentage" value="1" unit="%" description=""/>
+          </Binder>
+          <Additive type="3">
+            <property name="Material" value="-" unit="" description=""/>
+            <property name="Density" value="1" unit="g/cm3" description=""/>
+            <property name="Weight_Percentage" value="0" unit="%" description=""/>
+          </Additive>
+        </Formula>
+        <Coating type="2">
+          <property name="Loading" value="3" unit="mAh/cm2" description=""/>
+          <property name="Electrode_Thickness" value="164.2" unit="um" description="Double sided coatings + foil"/>
+          <property name="Electrode_Width" value="883" unit="mm" description=""/>
+          <property name="Electrode_Height" value="108" unit="mm" description=""/>
+          <property name="#_of_Electrode_Plates" value="38" unit="" description=""/>
+          <property name="Electrode_Expansion_Coeff" value="1" unit="" description="Electrode volume expansion ratio"/>
+        </Coating>
+        <Summary type="4">
+          <property name="Total_Coated_Area" value="72476.64" unit="cm2" description=""/>
+          <property name="Porosity" value="0.27" unit="" description=""/>
+          <property name="Mass_Loading" value="19.3299" unit="mg/cm2" description=""/>
+          <property name="Dry_Electrode_Density" value="2.56" unit="g/cm3" description=""/>
+          <property name="Active_Material_Used" value="1358.937" unit="g" description=""/>
+          <property name="First_Charge_Capacity" value="217429.92" unit="mAh" description=""/>
+          <property name="Irreversible_Capacity" value="13589.37" unit="mAh" description=""/>
+          <property name="Reversible_Capacity" value="202653.2838" unit="mAh" description=""/>
+        </Summary>
+      </Positive_Electrode>
+      <Negative_Electrode type="1">
+        <Tab type="3"/>
+        <Foil type="2">
+          <property name="Material" value="Cu" unit="" description=""/>
+          <property name="Thickness" value="8" unit="um" description=""/>
+          <property name="Width" value="885" unit="mm" description=""/>
+          <property name="Density" value="8.96" unit="g/cm3" description=""/>
+          <property name="Conductivity" value="5.8E+7" unit="S/m" description=""/>
+        </Foil>
+        <Formula type="3">
+          <Active_Material type="0">
+            <property name="Material" value="GRAPHITE" unit="" description=""/>
+            <property name="Molecular_Weight" value="72.06" unit="g/mol" description=""/>
+            <property name="Electrons_Transferred" value="1" unit="mol" description=""/>
+            <property name="Density" value="2.24" unit="g/cm3" description=""/>
+            <property name="1st_Charge_Capacity" value="371.933" unit="mAh/g" description=""/>
+            <property name="1st_Discharge_Capacity" value="350" unit="mAh/g" description=""/>
+            <property name="Umax" value="2.0" unit="V" description="Cutoff voltage for reversible specific capacity"/>
+            <property name="Particle_Size" value="15.0" unit="um" description="Particle diameter"/>
+            <property name="Swelling_Coefficient" value="1.0" unit="" description="Volume expansion coefficent"/>
+            <property name="Weight_Percentage" value="97.7" unit="%" description=""/>
+          </Active_Material>
+          <Conductive_Agent type="3">
+            <property name="Material" value="Carbon" unit="" description=""/>
+            <property name="Density" value="1.95" unit="g/cm3" description=""/>
+            <property name="Weight_Percentage" value="1" unit="%" description=""/>
+          </Conductive_Agent>
+          <Binder type="3">
+            <property name="Material" value="PVdF" unit="" description=""/>
+            <property name="Density" value="0.85" unit="g/cm3" description=""/>
+            <property name="Weight_Percentage" value="1.3" unit="%" description=""/>
+          </Binder>
+          <Additive type="3">
+            <property name="Material" value="-" unit="" description=""/>
+            <property name="Density" value="1" unit="g/cm3" description=""/>
+            <property name="Weight_Percentage" value="0" unit="%" description=""/>
+          </Additive>
+        </Formula>
+        <Coating type="2">
+          <property name="N/P_Ratio" value="110" unit="%" description=""/>
+          <property name="Loading" value="3.3" unit="mAh/cm2" description="Calculated from N/P ratio"/>
+          <property name="Electrode_Thickness" value="121.6" unit="um" description="Double sided coatings + foil"/>
+          <property name="Electrode_Width" value="885" unit="mm" description=""/>
+          <property name="Electrode_Height" value="110" unit="mm" description=""/>
+          <property name="#_of_Electrode_Plates" value="39" unit="" description=""/>
+          <property name="Electrode_Expansion_Coeff" value="1" unit="" description="Electrode volume expansion ratio"/>
+        </Coating>
+        <Summary type="4">
+          <property name="Total_Coated_Area" value="75933" unit="cm2" description=""/>
+          <property name="Porosity" value="0.27" unit="" description=""/>
+          <property name="Mass_Loading" value="9.0814" unit="mg/cm2" description=""/>
+          <property name="Dry_Electrode_Density" value="1.6" unit="g/cm3" description=""/>
+          <property name="Active_Material_Used" value="673.720754" unit="g" description=""/>
+          <property name="Theoretical_Capacity" value="250578.9" unit="mAh" description=""/>
+          <property name="Specific_Reversible_Capacity" value="300.7972" unit="mAh/g" description=""/>
+          <property name="Reversible_Capacity" value="202653.2838" unit="mAh" description=""/>
+        </Summary>
+      </Negative_Electrode>
+      <Separator type="3">
+        <property name="Type" value="Celgard" unit="" description=""/>
+        <property name="Thickness" value="20" unit="um" description=""/>
+        <property name="Density" value="1.2" unit="g/cm3" description=""/>
+        <property name="Height" value="887" unit="mm" description=""/>
+        <property name="Porosity" value="0.4" unit="" description=""/>
+      </Separator>
+    </Electrode_Assembly>
+    <Electrolyte type="3">
+      <property name="Lithium_Salt" value="LiPF6" unit="" description=""/>
+      <property name="Solution" value="EC-EMC-DMC" unit="" description=""/>
+      <property name="Concentration" value="1" unit="mol/L" description=""/>
+      <property name="Density" value="1.2" unit="g/cm3" description=""/>
+      <property name="Excess_Ratio" value="1.2" unit="" description="Excess electrolyte ratio"/>
+      <property name="EC_Volume_Fraction" value="0.3" unit="" description="Ethylene carbonate volume fraction calculated from mixing volume ratio"/>
+    </Electrolyte>
+    <Cell_Specifications type="1">
+      <property name="Cell_Surface_Area" value="2412.01" unit="cm2" description=""/>
+      <property name="Cell_Volume" value="1441.66" unit="cm3" description=""/>
+      <property name="Cell_Weight" value="3493.74" unit="g" description=""/>
+      <property name="Cell_Capacity" value="202.65328" unit="Ah" description="Reversible capacity"/>
+    </Cell_Specifications>
+    <Cell_Sizing type="1">
+      <property name="Negative_Active_Material" value="673.72" unit="" description="300.77"/>
+      <property name="Positive_Active_Material" value="1358.94" unit="" description="377.48"/>
+      <property name="Separator" value="109.34" unit="" description="151.87"/>
+      <property name="Electrolyte" value="468.51" unit="" description="390.42"/>
+      <property name="Negative_Electrode_Binder/Additive/Conductive_Agent" value="15.86" unit="" description="14.08"/>
+      <property name="Positive_Electrode_Binder/Additive/Conductive_Agent" value="42.03" unit="" description="22.28"/>
+      <property name="Negative_Current_Collector" value="272.14" unit="" description="30.37"/>
+      <property name="Positive_Current_Collector" value="127.2" unit="" description="47.11"/>
+      <property name="Enclosure" value="426" unit="" description="121.84"/>
+    </Cell_Sizing>
+  </Designer>
+  <Simulator>
+    <TCB_Model type="1">
+      <Model_Parameters type="1">
+        <Control_Parameters type="2">
+          <property name="Time_Step_Size" value="0.1" unit="s" description="Maximum time step size"/>
+          <property name="Max_Iterations_Per_Time_Step" value="50" unit="" description="Maximum iterations per time step"/>
+          <property name="Convergence_Criteria" value="1E-8" unit="" description="Convergence criteria"/>
+          <property name="Output_Frequency" value="5" unit="" description=""/>
+        </Control_Parameters>
+        <Mesh_Number type="2">
+          <property name="Negative_Electrode" value="12" unit="" description="# of mesh for negative electrode"/>
+          <property name="Separator" value="5" unit="" description="# of mesh for separator"/>
+          <property name="Positive_Electrode" value="12" unit="" description="# of mesh for positive electrode"/>
+          <property name="Negative_Particle" value="16" unit="" description="# of mesh for negative active material particle"/>
+          <property name="Positive_Particle" value="16" unit="" description="# of mesh for positive active material particle"/>
+        </Mesh_Number>
+        <Initial_Conditions type="2">
+          <property name="Cell_Temperature" value="333.15" unit="K" description=""/>
+          <property name="OCV@100%SOC" value="3.65" unit="V" description="Open Circuit Voltage (OCV) at 100% SOC"/>
+          <property name="SOC" value="0.972" unit="" description="State Of Charge; Normalized by the characterized capacity"/>
+          <property name="State_At" value="0" unit="Cycle" description="(0)Fresh Cell; (&gt;0) Read State Stored in Cycle Life State file"/>
+          <property name="Cycle_Life_State" value="Browse..." unit="" description="File path to cycle life aging state"/>
+        </Initial_Conditions>
+        <Operating_Conditions type="3">
+          <property name="Lower_Cutoff_Voltage" value="2.4" unit="V" description=""/>
+          <property name="Upper_Cutoff_Voltage" value="4.2" unit="V" description=""/>
+          <property name="Load_Profiles" value="UDLP" unit="" description=""/>
+          <property name="UDLP" value="E:\TMLFP_Model\Fig3_Drive_Cycle\TMLFP_Blade_UDDS\LFP_UDDS_40kWh_wRegen.dat" unit="" description="File path to UDLP"/>
+        </Operating_Conditions>
+        <Butler-Volmer_Equation type="1">
+          <Negative_Electrode type="3">
+            <property name="Open_Circuit_Potential" value="database" unit="" description="[V]"/>
+            <property name="Anodic_Transfer_Coefficient" value="0.5" unit="" description=""/>
+            <property name="Cathodic_Transfer_Coefficient" value="0.5" unit="" description=""/>
+            <property name="Exchange_Current_Density" value="UDF" unit="" description="[A/m2]"/>
+            <property name="SEI_Thickness" value="5" unit="nm" description="SEI layer thickness in nanometer"/>
+            <property name="SEI_Resistance" value="0.0005" unit="Ohm_m2" description="Reference value at room temperature (298.15K)"/>
+            <property name="Resistance_Activation_Energy" value="6.8E+4" unit="J/mol" description="Activation energy for SEI layer resistance"/>
+            <property name="SEI_Charge_Transfer_Coefficient" value="0.5" unit="" description="Charge transfer coefficient for SEI growth"/>
+            <property name="SEI_Equilibrium_Potential" value="0.4" unit="V" description="Equilibrium potential for SEI growth"/>
+            <property name="SEI_Rate_Constant" value="3E-16" unit="m/s" description="SEI layer growth rate constant"/>
+            <property name="Rate_Constant_Activation_Energy" value="6E+4" unit="J/mol" description="Activation energy for rate constant"/>
+            <property name="EC_Diffusivity" value="2E-19" unit="m2/s" description="EC diffusivity"/>
+            <property name="Diffusivity_Activation_Energy" value="7E+4" unit="J/mol" description="Activation energy for EC diffusivity"/>
+            <property name="dU/dT" value="database" unit="" description="[V/K] Entropic heat"/>
+          </Negative_Electrode>
+          <Positive_Electrode type="3">
+            <property name="Open_Circuit_Potential" value="database" unit="" description="[V]"/>
+            <property name="Anodic_Transfer_Coefficient" value="0.5" unit="" description=""/>
+            <property name="Cathodic_Transfer_Coefficient" value="0.5" unit="" description=""/>
+            <property name="Exchange_Current_Density" value="UDF" unit="" description="[A/m2]"/>
+            <property name="Film_Thickness" value="5" unit="nm" description="Film thickness in nanometer"/>
+            <property name="Film_Resistance" value="0.001" unit="Ohm_m2" description="Reference value at room temperature (298.15K)"/>
+            <property name="Activation_Energy" value="3E+4" unit="J/mol" description="Activation energy for film resistance"/>
+            <property name="dU/dT" value="database" unit="" description="[V/K] Entropic heat"/>
+          </Positive_Electrode>
+        </Butler-Volmer_Equation>
+        <Bruggeman_Exponents type="2">
+          <property name="Negative" value="2.5" unit="" description="Bruggeman exponent for negative electrode"/>
+          <property name="Separator" value="2.5" unit="" description="Bruggeman exponent for separator"/>
+          <property name="Positive" value="2.5" unit="" description="Bruggeman exponent for positive electrode"/>
+        </Bruggeman_Exponents>
+        <Electrolyte_Concentration type="3">
+          <property name="Average_Concentration" value="1000" unit="mol/m3" description="Defined in the designer"/>
+          <property name="Diffusion_Coefficient" value="UDF" unit="" description="[m2/s]"/>
+          <property name="Transference_Number" value="0.38" unit="" description=""/>
+        </Electrolyte_Concentration>
+        <Solid_State_Diffusion type="1">
+          <Negative_Active_Material type="3">
+            <property name="Diffusion_Coefficient" value="UDF" unit="" description="[m2/s]"/>
+          </Negative_Active_Material>
+          <Positive_Active_Material type="3">
+            <property name="Diffusion_Coefficient" value="UDF" unit="" description="[m2/s]"/>
+          </Positive_Active_Material>
+        </Solid_State_Diffusion>
+        <Electrolyte_Potential type="3">
+          <property name="Ionic_Conductivity" value="UDF" unit="" description="[S/m]"/>
+          <property name="Diffusional_Conductivity" value="UDF" unit="" description="[A/m]"/>
+        </Electrolyte_Potential>
+        <Solid_Phase_Potential type="3">
+          <Negative_Electrode type="2">
+            <property name="Conductivity" value="1E+2" unit="S/m" description=""/>
+            <property name="Contact_Resistance" value="0.0002" unit="Ohm_m2" description=""/>
+          </Negative_Electrode>
+          <Positive_Electrode type="2">
+            <property name="Conductivity" value="6.8" unit="S/m" description=""/>
+            <property name="Contact_Resistance" value="0.0005" unit="Ohm_m2" description=""/>
+          </Positive_Electrode>
+        </Solid_Phase_Potential>
+        <Heat_Transfer type="3">
+          <property name="Thermal_Model" value="off" unit="" description=""/>
+          <property name="Ambient_Temperature" value="333.15" unit="K" description=""/>
+          <property name="Cell_Specific_Heat" value="1000" unit="J/Kg/K" description=""/>
+          <property name="Convective_Heat_Transfer,h" value="25" unit="W/m2/K" description=""/>
+        </Heat_Transfer>
+        <Degradation type="2">
+          <Film_Growth type="2">
+            <Negative_Electrode type="3">
+              <property name="SEI_Layer_Growth_Model" value="off" unit="" description=""/>
+              <property name="Molecular_Weight" value="162" unit="g/mol" description="SEI layer molecular weight"/>
+              <property name="Density" value="1.69" unit="g/cm3" description="SEI layer density"/>
+              <property name="Porosity" value="0.05" unit="" description="SEI layer porosity"/>
+            </Negative_Electrode>
+            <Positive_Electrode type="3">
+              <property name="Film_Growth_Model" value="off" unit="" description=""/>
+              <property name="Molecular_Weight" value="162" unit="g/mol" description="Film molecular weight"/>
+              <property name="Density" value="1.69" unit="g/cm3" description="Film density"/>
+              <property name="Porosity" value="0.02" unit="" description="Film porosity"/>
+              <property name="Rate_Constant" value="3.1E-8" unit="m4/mol/s" description="Film growth rate constant"/>
+              <property name="Activation_Energy" value="2.5E+4" unit="J/mol" description="Activation energy for rate constant"/>
+            </Positive_Electrode>
+          </Film_Growth>
+          <Active_Material_Isolation type="2">
+            <Negative_Electrode type="3">
+              <property name="AM_Isolation_Model" value="off" unit="" description=""/>
+              <property name="Rate_Constant" value="2E-14" unit="m^3/A/s" description="Rate constant for AM isolation"/>
+              <property name="Activation_Energy" value="0" unit="J/mol" description="Activation energy for rate constant"/>
+            </Negative_Electrode>
+            <Positive_Electrode type="3">
+              <property name="AM_Isolation_Model" value="off" unit="" description=""/>
+              <property name="Rate_Constant" value="0" unit="m^3/A/s" description="Rate constant for AM isolation"/>
+              <property name="Activation_Energy" value="3E+4" unit="J/mol" description="Activation energy for rate constant"/>
+            </Positive_Electrode>
+          </Active_Material_Isolation>
+          <Lithium_Plating type="3">
+            <property name="Lithium_Plating_Model" value="off" unit="" description=""/>
+            <property name="Cathodic_Transfer_Coefficient" value="0.7" unit="" description="Charge transfer coefficient for lithium plating"/>
+            <property name="Exchange_Current_Density" value="0.035" unit="A/m2" description="Exchange current density at room temperature (298.15K)"/>
+            <property name="Activation_Energy" value="3.53E+4" unit="J/mol" description="Activation energy for lithium plating"/>
+            <property name="Morphology_Factor" value="0.03" unit="" description="Morphology factor for reaction surface reduction"/>
+          </Lithium_Plating>
+        </Degradation>
+        <Other_Settings type="3">
+          <property name="Negative_DL_Capacitance" value="0" unit="F/m2" description="Typical value: 0.2. Double layer capacitance for the negative electrode"/>
+          <property name="Positive_DL_Capacitance" value="0" unit="F/m2" description="Typical value: 0.2. Double layer capacitance for the positive electrode"/>
+        </Other_Settings>
+      </Model_Parameters>
+      <Solution type="1">
+        <Build type="2">
+          <property name="UDF_Path" value=".\usrsrc" unit="" description="Directory of UDFs"/>
+        </Build>
+        <Run type="1">
+          <property name="" value="" unit="" description=""/>
+        </Run>
+        <Parameter_Study type="1">
+          <Temperature_Series type="2">
+            <property name="Case_1" value="" unit="K" description="INACTIVE"/>
+            <property name="Case_2" value="" unit="K" description="INACTIVE"/>
+            <property name="Case_3" value="" unit="K" description="INACTIVE"/>
+            <property name="Case_4" value="" unit="K" description="INACTIVE"/>
+            <property name="Case_5" value="" unit="K" description="INACTIVE"/>
+            <property name="Case_6" value="" unit="K" description="INACTIVE"/>
+            <property name="Case_7" value="" unit="K" description="INACTIVE"/>
+            <property name="Case_8" value="" unit="K" description="INACTIVE"/>
+            <property name="Case_9" value="" unit="K" description="INACTIVE"/>
+            <property name="Case_10" value="" unit="K" description="INACTIVE"/>
+          </Temperature_Series>
+          <Current_Series type="2">
+            <property name="Case_1" value="" unit="A" description="INACTIVE"/>
+            <property name="Case_2" value="" unit="A" description="INACTIVE"/>
+            <property name="Case_3" value="" unit="A" description="INACTIVE"/>
+            <property name="Case_4" value="" unit="A" description="INACTIVE"/>
+            <property name="Case_5" value="" unit="A" description="INACTIVE"/>
+            <property name="Case_6" value="" unit="A" description="INACTIVE"/>
+            <property name="Case_7" value="" unit="A" description="INACTIVE"/>
+            <property name="Case_8" value="" unit="A" description="INACTIVE"/>
+            <property name="Case_9" value="" unit="A" description="INACTIVE"/>
+            <property name="Case_10" value="" unit="A" description="INACTIVE"/>
+          </Current_Series>
+        </Parameter_Study>
+      </Solution>
+    </TCB_Model>
+  </Simulator>
+</AutoLion>
