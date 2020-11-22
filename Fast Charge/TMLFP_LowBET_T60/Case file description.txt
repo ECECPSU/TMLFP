@@ -1,1 +1,12 @@
+These case files are for the simulation of fast-charging of the TM-LFP battery at 60oC for cells with different graphite particle radius, corresponding to the results presented in Fig. 5c. 
+
+Case-file Name: Blade_TM-LFP_Graphite_R_15x_T60_CC6C_CV365.xml
+Descripton: TM-LFP battery with 1.5x graphite particle radius charging at 60oC with the CCCV protocol of CC@6.0C and CV@3.65V
+
+Case-file Name: Blade_TM-LFP_Graphite_R_2x_T60_CC6C_CV360.xml
+Descripton: TM-LFP battery with 2x graphite particle radius charging at 60oC with the CCCV protocol of CC@6.0C and CV@3.6V
+
+Case-file Name: Blade_TM-LFP_Graphite_R_2x_T60_CC6C_CV365.xml
+Descripton: TM-LFP battery with 2x graphite particle radius charging at 60oC with the CCCV protocol of CC@6.0C and CV@3.65V
+
 
