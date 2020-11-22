@@ -1,1 +1,19 @@
+These case files are for the simulation of fast-charging of the NMC622 cell at different temperatures and C-rates, presented in Fig. 4.
 
+Case-file Name: VDA_NMC622_Char_T00_01_04C.xml
+Descripton: NMC622 VDA battery charging at 0oC with the CCCV protocol of CC@0.4C and CV@4.2V
+
+Case-file Name: VDA_NMC622_Char_T00_02_07C.xml
+Descripton: NMC622 VDA battery charging at 0oC  with the CCCV protocol of CC@0.7C and CV@4.2V
+
+Case-file Name: VDA_NMC622_Char_T25_01_15C.xml
+Descripton: NMC622 VDA battery charging at 25oC with the CCCV protocol of CC@1.5C and CV@4.2V
+
+Case-file Name: VDA_NMC622_Char_T25_02_30C.xml
+Descripton: NMC622 VDA battery charging at 25oC with the CCCV protocol of CC@3.0C and CV@4.2V
+
+Case-file Name: VDA_NMC622_Char_T60_01_40C.xml
+Descripton: NMC622 VDA battery charging at 60oC with the CCCV protocol of CC@4.0C and CV@4.2V
+
+Case-file Name: VDA_NMC622_Char_T60_02_60C.xml
+Descripton: NMC622 VDA battery charging at 60oC with the CCCV protocol of CC@6.0C and CV@4.2V
