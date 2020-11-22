@@ -1,1 +1,28 @@
+These case files are for drive-cycle simulation of the prismatic (VDA-BEV2 standard) NMC622 batteries under the UDDS protocol at different temperatures, presented in Fig. 3a and 3c. The UDDS protocol is implemented in the model as user defined load profiles (UDLP).
 
+Case-file Name: VDA_NMC622_UDDS_40kWh_T60.xml
+Descripton: ambient temperature at 60oC
+
+Case-file Name: VDA_NMC622_UDDS_40kWh_T40.xml
+Descripton: ambient temperature at 40oC
+
+Case-file Name: VDA_NMC622_UDDS_40kWh_T25.xml
+Descripton: ambient temperature at 25oC
+
+Case-file Name: VDA_NMC622_UDDS_40kWh_T10.xml
+Descripton: ambient temperature at 10oC
+
+Case-file Name: VDA_NMC622_UDDS_40kWh_T00.xml
+Descripton: ambient temperature at 0oC
+
+Case-file Name: VDA_NMC622_UDDS_40kWh_TM10.xml
+Descripton: ambient temperature at -10oC
+
+Case-file Name: VDA_NMC622_UDDS_40kWh_TM20.xml
+Descripton: ambient temperature at -20oC
+
+File name: NMC_UDDS_40kWh_wRegen
+Descripton: Load profile of battery power for the UDDS protocol with consideration of regenerative braking
+
+File name: NMC_UDDS_40kWh_NoRegen
+Descripton: Load profile of battery power for the UDDS protocol without consideration of regenerative braking
