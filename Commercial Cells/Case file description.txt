@@ -1,1 +1,13 @@
+These case files are for model validation against the experimental data of commercial LFP and NMC cells in terms of charge and discharge at various temperatures and C-rates, presented in Supplementary Figs. 1-4.
 
+Case-file Name: LFP_A123_20Ah_Charge.xml
+Descripton: Model of the charging of 20-Ah LFP cell from A123 against the experimental data in Refs. 49-50.
+
+Case-file Name: LFP_A123_20Ah_DisCharge.xml
+Descripton: Model of the discharge of 20-Ah LFP cell from A123 against the experimental data in Refs. 49-50.
+
+Case-file Name: NCM622_ECP_10Ah_Charge.xml
+Descripton: Model of the charging of 10-Ah NMC622 cell from EC Power against the experimental data in Refs. 47-48
+
+Case-file Name: NCM622_ECP_10Ah_Discharge.xml
+Descripton: Model of the discharge of 10-Ah NMC622 cell from EC Power against the experimental data in Refs. 47-48
